@@ -72,28 +72,6 @@ Do the following before paving the partition. This is to get the way I have thin
 
     ![](images/macOS-MenuBar.png)
 
-### Adobe Creative Cloud
-
-- Launch each app and sync settings (PUSH) for:
-  - Media Encoder
-  - Photoshop
-  - Prelude
-  - Premiere Pro
-- Media Encoder:
-  - export all profiles: **[./AppSettings/AdobeCreativeCloud/MediaEncoder](./AppSettings/AdobeCreativeCloud/MediaEncoder)**
-- Photoshop:
-  - export saved actions: **[./AppSettings/AdobeCreativeCloud/Photoshop](./AppSettings/AdobeCreativeCloud/Photoshop)**
-- Premiere Pro:
-  - export custom presets: **[./AppSettings/AdobeCreativeCloud/PremierePro](./AppSettings/AdobeCreativeCloud/PremierPro)**
-- Jump Desktop
-- export list of VMs => **{{PRIVATE_BACKUP}}**
-- Mac App Store apps
-- refresh list installed MacOS apps: **[./scripts/macos-install.sh](./scripts/macos-install.sh)**
-
-    ```bash
-    $ mas list
-    ```
-
 ## Pave partition
 
 1. restart with COMMAND+R
